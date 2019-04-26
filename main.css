@@ -1,0 +1,226 @@
+body {
+	font-family: 'Courgette', cursive;
+	text-align: center;
+	background:hsla(131, 100%, 87%, 1);
+	color:hsla(251, 5%, 15%, 1);
+}
+
+#logo-img {
+	display:inline-block;
+	width:140px;
+	height:auto;
+	margin-left:20px;
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+.navbar {
+	font-size: 18px;
+	background-color:white;
+	display:flex;
+	justify-content: space-between;
+	padding-bottom:0;
+	height: 65px;
+	align-items:center;
+	position:fixed;
+	top: 0;
+	width:100%;
+	box-shadow: 0 0 9px 7px white;
+
+}
+
+.main-nav {
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	margin-right:35px;
+	list-style-type: none;
+}
+
+.nav-links {
+	text-decoration:none;
+	margin-left:30px;
+}
+
+.main-nav li {
+	margin:0;
+}
+
+
+/* form submit */
+section {
+	margin-top:70px;
+}
+
+#organic {
+	padding:20px;
+}
+
+#email {
+	width: 200px;
+	height:25px;
+	padding-left:8px;
+	border-radius:4px;
+}
+
+#submit {
+	width:100px;
+	height:25px;
+	border-radius:5px;
+	border-color:none;
+	background-color: hsla(58, 100%, 70%, 1);
+}
+
+#submit, .button {
+	border-style:groove;
+	border-width:2px;
+	font-family:'Courgette', cursive;
+	font-size:15px;
+	margin:5px;
+
+}
+
+.button {
+	padding:8px 10px 8px 10px;
+	margin:15px;
+	border-radius:3px;
+	border-style:none;
+	color:white;
+	background-color:hsla(189, 49%, 34%, 1);
+
+}
+
+/* foods */
+
+.food-logo {
+	width:65px;
+	height:auto;
+	padding:8px;
+}
+
+.container {
+	display:flex;
+	flex-direction:row;
+	list-style-type: none;
+	padding:20px;
+	width:800px;
+	margin: 0 auto;
+	margin-bottom:15px;
+
+}
+
+.box {
+	text-decoration:none;
+	margin-right:30px;
+}
+
+h3, p {
+	text-align:left;
+}
+
+
+/* video */
+
+#video {
+	margin:10px;
+}
+
+/* price boxes */
+
+.price-container {
+	display:flex;
+	justify-content: center;
+	flex-wrap:wrap;
+	margin-top:10px;
+
+}
+
+.price-box {
+	margin:15px;
+	width: 200px;
+	height: 220px;
+	border-style:none;
+	border-radius: 5px;
+	background-color:white;
+	padding:10px 20px 0px 20px;
+}
+
+.price-color {
+	background-color:hsla(189, 50%, 38%, 0.9);
+	margin:-10px -20px 0px -20px;
+	padding:5px;
+}
+
+h2 {
+	color:white;
+	font-weight:200;
+}
+
+h4 {
+	color:#404040;
+}
+
+/* footer */
+
+.footer {
+	font-size: 13px;
+	background-color:lightgrey;
+	height:60px;
+	width:700px;
+	align-content: center;
+	margin:0 auto;
+	padding:4px 15px 4px 0;
+
+}
+
+.footer-container {
+	display:flex;
+	margin-top:10px;
+	flex-direction:row;
+	justify-content:flex-end;
+	list-style-type: none;
+
+}
+
+.footer-links {
+	margin-left:20px;
+	text-decoration:none;
+
+}
+
+h5 {
+	text-align:right;
+	padding-top:3px;
+}
+
+/* media */
+
+
+@media screen and (max-width:800px){
+	.container {
+		width:100%;
+	}
+
+	#video {
+		width:80%;
+	}
+}
+
+@media screen and (max-width:710px){
+	.footer {
+	width:100%;
+}
+
+}
+
+@media screen and (max-width:430px){
+	.main-nav {
+		display:inline;
+		text-align:right;
+		margin-right:10px;
+	}
+}
